@@ -1,0 +1,149 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #0b1220;
+  color: white;
+}
+
+/* APP WRAPPER */
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.header p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+/* UPLOAD CARD */
+.uploadCard {
+  background: #111827;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #1f2937;
+}
+
+.uploadCard input {
+  color: white;
+}
+
+.uploadCard button {
+  background: #3b82f6;
+  border: none;
+  padding: 10px 14px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.uploadCard button:hover {
+  background: #2563eb;
+}
+
+/* CHAT BOX */
+.chatContainer {
+  background: #0f172a;
+  border: 1px solid #1f2937;
+  border-radius: 14px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* MESSAGES */
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* MESSAGE BUBBLES */
+.msg {
+  max-width: 70%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.user {
+  align-self: flex-end;
+  background: #3b82f6;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.bot {
+  align-self: flex-start;
+  background: #1f2937;
+  color: #e5e7eb;
+  border-bottom-left-radius: 4px;
+}
+
+/* TYPING */
+.typing {
+  color: #94a3b8;
+  font-style: italic;
+  font-size: 13px;
+}
+
+/* INPUT BOX */
+.inputBox {
+  display: flex;
+  padding: 12px;
+  border-top: 1px solid #1f2937;
+  background: #0b1220;
+}
+
+.inputBox input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+  background: #111827;
+  color: white;
+  outline: none;
+}
+
+.inputBox input:focus {
+  border-color: #3b82f6;
+}
+
+.inputBox button {
+  margin-left: 10px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.inputBox button:hover {
+  background: #16a34a;
+}
