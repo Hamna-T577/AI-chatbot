@@ -52,6 +52,7 @@ project/
 │   ├── uploads/
 │   ├── requirements.txt
 │   └── venv/
+|   |__ chroma_db/
 │
 ├── frontend/
 │   ├── src/
