@@ -1,6 +1,5 @@
 
 
-https://github.com/user-attachments/assets/cc546217-cbb4-44b5-9e59-1e0dccc59a52
 
 # AI-Powered Document Chatbot
 
