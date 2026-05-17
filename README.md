@@ -246,7 +246,6 @@ HF_TOKEN=your_huggingface_token
 
 # Demo Video
 
- https://drive.google.com/file/d/1QYElJ3UM8cRVnbfmg--lBRhDStflQbPF/view?usp=sharing
 https://drive.google.com/file/d/1JstDgaNTZgxD6J3GDfIMFBUcUncJmwpQ/view?usp=sharing
 
 ---
