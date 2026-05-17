@@ -6,7 +6,6 @@
 # AI-Powered Document Chatbot
 
 An AI-powered document chatbot application built using FastAPI, React, LangChain, Hugging Face, and ChromaDB.
-
 The application allows users to upload PDF/TXT documents and ask questions related to the uploaded content. The chatbot answers questions using embeddings-based retrieval and Retrieval-Augmented Generation (RAG).
 
 ---
@@ -248,12 +247,7 @@ HF_TOKEN=your_huggingface_token
 # Demo Video
 
  https://drive.google.com/file/d/1QYElJ3UM8cRVnbfmg--lBRhDStflQbPF/view?usp=sharing
-
-Example:
-
-```text
-https://drive.google.com/your-demo-video-link
-```
+https://drive.google.com/file/d/1JstDgaNTZgxD6J3GDfIMFBUcUncJmwpQ/view?usp=sharing
 
 ---
 
